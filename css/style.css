@@ -1,0 +1,116 @@
+    @import url('https://fonts.google.com/specimen/Poppins');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    body {
+        background-color: hsl(0, 100%, 74%);
+        background-image: url("/images/bg-intro-desktop.png");
+        background-repeat: repeat;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        color: white;
+        font-weight: 500px;
+    }
+    
+    main {
+        padding: 70px 200px;
+    }
+    
+    section {
+        display: flex;
+    }
+    
+    .left {
+        color: white;
+        line-height: 2;
+        padding: 150px 0px;
+    }
+    
+    .right {
+        padding: 0px 50px;
+    }
+    
+    .card {
+        width: 400px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        padding: 15px;
+        margin-top: 20px;
+        background-color: white;
+    }
+    
+    .promo {
+        background-color: hsl(248, 32%, 49%);
+        text-align: center;
+    }
+    
+    input,
+    button {
+        width: 100%;
+        height: 35px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-right: 30px;
+    }
+    
+    button {
+        background-color: hsl(154, 59%, 51%);
+    }
+    
+    h1 {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 1;
+    }
+    
+    span {
+        text-shadow: whitesmoke;
+        color: hsl(246, 25%, 77%);
+        font-size: 11px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: red;
+        text-shadow: whitesmoke;
+        font-weight: 600px;
+    }
+    
+    footer {
+        text-align: right;
+        padding: 0px 200px;
+    }
+    
+    @media screen and (max-width: 700px) {
+        body {
+            background-image: url("/images/bg-intro-mobile.png");
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        main {
+            padding: 0px 60px;
+        }
+        section {
+            flex-direction: column;
+            text-align: center;
+        }
+        footer {
+            padding: 0px;
+            text-align: center;
+        }
+        .left {
+            padding: 0px;
+        }
+        .right {
+            padding: 10px 0px;
+        }
+        .card {
+            width: 300px
+        }
+    }
