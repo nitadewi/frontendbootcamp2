@@ -94,7 +94,7 @@
             background-repeat: no-repeat;
         }
         main {
-            padding: 0px 60px;
+            padding: 0px 40px;
         }
         section {
             flex-direction: column;
@@ -108,7 +108,8 @@
             padding: 0px;
         }
         .right {
-            padding: 10px 0px;
+            padding: 0px;
+            text-align: center;
         }
         .card {
             width: 300px
